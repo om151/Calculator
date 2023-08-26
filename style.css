@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+.calculator{
+    margin: auto;
+    height: 370px;
+    width: 370px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px gray,0px 0px 10px gray;
+    margin-top: 150px;
+    background-color: black;
+}
+input[type="text"]{
+     font-family: 'Orbitron', sans-serif;
+}
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 90%;
+    height: 65%;
+}
+
+input[type="button"]{
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    color: white;
+    border: 0px;
+    height: 70px;
+    width: 70px;
+    padding: 18px 23px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: rgba(49, 49, 49, 0.701);
+    
+    
+}
+
+input[type="button"]:hover{
+    background-color: rgba(49, 49, 49, 0.403);
+}
+
+tr .operator, tr .btn{
+    background-color: rgba(126, 126, 126, 0.663);
+}
+
+
+tr .equal{
+      padding: 0px 23px;
+    /* align-items: center; */
+    font-size: 33px;
+    background-color: orangered;
+}
+tr .equal:hover{
+      padding: 0px 23px;
+    /* align-items: center; */
+    font-size: 33px;
+    background-color: rgba(255, 68, 0, 0.63);
+}
+
+input:active[type=button] {
+
+    background: #e5e5e5;
+color: black;
+
+
+}
